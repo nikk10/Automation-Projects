@@ -22,8 +22,8 @@ def fix_images(my_dir, new_dir, file_type, degree, width, height):
 
 if __name__ == "__main__":
     #state the source and destination of the images and teh new file type
-    my_dir = "/home/nicole/Pictures"
-    new_dir = "/home/nicole/Pictures/Edited-Pictures"
+    my_dir = "/home/usr/Pictures"
+    new_dir = "/home/usr/Pictures/Edited-Pictures"
     file_type = ".jpg"
     #state the degree of rotation and new height and width
     degree = 90
