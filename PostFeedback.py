@@ -15,7 +15,7 @@ for file in os.listdir(file_location):
         feedback["Title"] = f.readline().strip()
         feedback["Name"] = f.readline().strip()
         feedback["Date"] = f.readline().strip()
-        #comments are read into a list to teh end of teh file,
+        #comments are read into a list to the end of the file,
         #then combined into one string and s/n is replaced with empty text
         feedback["Comments"] = " ".join(f.readlines()).replace("\n", "")
 
